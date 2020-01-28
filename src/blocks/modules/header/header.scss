@@ -1,0 +1,125 @@
+p,h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: url('../../../img/Bg1.png') $primary-1 center center no-repeat;
+}
+.header .row{
+    align-items: center;
+    padding: 10px 0;
+}
+.header p{
+    @include font($primary-4,$font-thin,20px,100)
+    // color: $primary-4;
+    // font-family: "$font-thin";
+    // font-size: 20px;
+}
+.header p span{
+    font-family: "$font-regular";
+}
+.sprite{
+    background: url('../../../img/css_sprites.png');
+    display: inline-block;
+margin-left: 3px
+}
+.login{
+    width: 41px; height: 25px;
+    background-position: -10px -10px;
+}
+.chat{
+    width: 51px; height: 30px;
+    background-position: -10px -55px; 
+  
+}
+.header a{
+    @include a($base-light,$font-regular);
+    // text-decoration: none;
+    // color: $base-light;
+    // font-family: "$font-regular";
+    font-size: 20px;
+   // text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+@media(max-width:1024px){
+    .header p{
+        font-size: 18px;
+    }
+    .header a{
+        font-size: 18px;
+    }
+ .chat{
+     width: 41px;
+     height: 28px;
+     background-position: -39px -17px;
+     background-size:105%;
+ }
+ .chat-padding{
+     padding: 0;
+ }
+}
+.burger{
+    width: 65px;
+    height: 5px;
+    background-color: $base-light;
+    display: block;
+    position: relative;
+}
+.burger::before{
+    content: '';
+    width: 65px;
+    height: 5px;
+    background-color: $base-light;
+    display: block;
+    position: absolute;
+    top: -15px;
+}
+.burger::after{
+    content: '';
+    width: 65px;
+    height: 5px;
+    background-color: $base-light;
+    display: block;
+    position: absolute;
+    top: 15px;
+}
+
+.menu{
+    background-color: $primary-3;
+    box-shadow: 0 5px 0.5 grey;
+    color: $base-light;
+    font-family: "$font-regular";
+    font-size: 18px;
+}
+.menu a{
+    @include a($base-light,$font-regular);
+   // color: $base-light;
+   // text-decoration: none;
+   // font-family: "$font-regular";
+    font-size: 18px; 
+  //  text-transform: uppercase;
+}
+.menu ul{
+    list-style-type: none;
+    padding-right: 30px;
+}
+.menu .row{
+    align-items: center;
+}
+.menu ul span{
+    margin:0 20px 0 20px ;
+}
+.chat1{
+    width: 89px;
+    height: 30px;
+    background-position: 11px -16px;
+    background-size: 105%;
+    margin-top: 10px;
+}
+.login1{
+    margin-left: 100px;
+}
+.chat2{
+    width: 200px;
+}
