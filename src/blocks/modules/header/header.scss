@@ -10,7 +10,7 @@ p,h1,h2,h3,h4,h5,h6,ul,ol{
     padding: 10px 0;
 }
 .header p{
-    @include font($primary-4,$font-thin,20px,100)
+    @include font($primary-4,$font-thin,20px,)
     // color: $primary-4;
     // font-family: "$font-thin";
     // font-size: 20px;
