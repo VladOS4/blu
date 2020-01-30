@@ -113,13 +113,53 @@ margin-left: 3px
 .chat1{
     width: 89px;
     height: 30px;
-    background-position: 11px -16px;
+    margin-top: 8px;
+    background-position: 13px  -52px;
     background-size: 105%;
+
+}
+
+@media(max-width:1199px) and (min-width:991px){
+    .menu ul{
+        padding-right: 0px;
+    }
+    .menu{
+        font-size: 14px;
+    }
+    .menu a{
+        font-size: 14px; 
+    }
+ }
+ .chat-padding{
+     padding: 0;
+ }
+ .chat2{
+    font-size: 22px; 
+    font-family: "Roboto Regular";
+    line-height: 50px;
+    padding: 0;
+    margin: 10px 0 10px 0;
+ }
+ .login1{
+        font-size: 22px; 
+        font-family: "Roboto Regular";
+        line-height: 50px;
+        padding: 0;
+        margin: 10px 0 10px 0;
+ }
+ .login2
+{
     margin-top: 10px;
+    width: 89px;
+    height: 30px;
+    background-position: 5px -9px;
 }
-.login1{
-    margin-left: 100px;
+.menu p{
+    color: #caddea;
+    font-family: "Roboto Regular";
+    font-size: 16px;
+    text-align: right;
 }
-.chat2{
-    width: 200px;
+.menu p span{
+    font-family: "Roboto Thin";
 }
