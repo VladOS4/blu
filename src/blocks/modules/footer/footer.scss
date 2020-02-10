@@ -1,0 +1,30 @@
+.cards{
+    background-color: $primary-4;
+ .img{
+     margin: 5px 0;
+     float: left;
+     img{
+        line-height: 29.5px;
+     }
+ }
+ .im{
+    margin: 5px 0;
+float: right;
+text-align: left;
+img{
+    margin-right: 40px;
+   margin-top: 5px;
+ 
+}
+ }
+ @media (max-width:990px) {
+    .im{
+        text-align: center;
+        float: none;
+        justify-content: space-between;
+        img{
+            margin-right: 25px;}
+    }
+ }
+ 
+}
