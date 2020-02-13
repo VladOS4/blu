@@ -104,12 +104,23 @@ margin-left: 3px
 .menu ul{
     list-style-type: none;
     padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
+.menu .hov:hover{
+   color:$primary-3;
+   background-color: $primary-4;
+}
+
 .menu .row{
     align-items: center;
 }
 .menu ul span{
     margin:0 20px 0 20px ;
+}
+.menu ul span:hover{
+    margin:0 20px 0 20px ;
+   color:$primary-3;
 }
 .chat1{
     width: 89px;
