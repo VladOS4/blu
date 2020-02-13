@@ -122,8 +122,24 @@ ul{
 }
 }
 }
+.p1{
 p{
     text-align: center;
     @include font($primary-4,$font-medium,16px);
 margin-bottom: 22px;
 }}
+.amini{
+    text-align: left;
+    margin-top: 15px;
+    a{
+        @include font($base-light,$font-medium,18px);
+
+    }
+}
+.amini1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    @include font($primary-4,$font-medium,16px);
+}
+}
